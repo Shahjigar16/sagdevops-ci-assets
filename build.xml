@@ -28,9 +28,9 @@
 		<description>Deploy project.</description>
 	</target>
 
-     <!--   <target name="test" depends="initProject,startTest">
+       <target name="test" depends="initProject,startTest">
 		<description>Run tests.</description>
-	</target>	-->	
+	</target>		
 	<target name="buildDeployTest" depends="build, deploy, test">
 		<description>Build and deploy the project.</description>
 	</target>
